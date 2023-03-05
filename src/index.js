@@ -88,6 +88,7 @@ function getLocation(event) {
 
 let now = new Date();
 let day = days[now.getDay()];
+let hr = now.getHours();
 hr = hr.toString().length === 1 ? `0${hr}` : hr.toString();
 let min = now.getMinutes();
 min = min.toString().length === 1 ? `0${min}` : min.toString();
