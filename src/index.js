@@ -77,7 +77,7 @@ function setLocation(position) {
     .then(showTemp);
   let city = axios
     .get(
-      `http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${long}&limit=1&appid=${apiKey}`
+      `https://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${long}&limit=1&appid=${apiKey}`
     )
     .then(changeLocation);
 }
