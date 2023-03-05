@@ -1,0 +1,61 @@
+.card {
+  max-width: 90%;
+  text-align: center;
+  display: block;
+  margin: 15px auto;
+  box-shadow: 2px 3px 2px rgb(224, 224, 224);
+  background-color: #e8f1ff;
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 0.5em;
+  background-color: #c3ebcd;
+}
+
+.days {
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.col {
+  border: 1px solid rgba(86, 61, 124, 0.2);
+  font-size: 18px;
+  padding: 5px;
+}
+
+.selected {
+  background-color: #dedede;
+}
+
+.info {
+  text-align: left;
+  margin-left: 60px;
+}
+
+.large-temp {
+  font-size: 50px;
+}
+
+#chart {
+  margin: 30px;
+}
+
+.high-temp {
+  position: relative;
+  top: -20px;
+  color: #828282;
+}
+
+.low-temp {
+  position: relative;
+  right: 65px;
+  color: #828282;
+}
